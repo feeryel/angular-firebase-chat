@@ -1,0 +1,14 @@
+<div class="messageContainer" [ngClass]="{'messageContainer--is-own-sender': email === loggedInUserEmail}"
+    tooltip="{{timeStamp | date: 'medium'}}" placement="auto">
+    <div class="messageData">
+        <span class="sender" [ngClass]="{'sender--own-sender': email === loggedInUserEmail}">
+            {{username}}
+        </span>
+        <!-- <span class="timestamp"  [ngClass]="{'timestamp--is-own-sender': email === loggedInUserEmail}">
+            {{timeStamp | date: 'medium'}}
+        </span> -->
+    </div>
+    <div class="messageContent">
+        {{messageContent}}
+    </div>
+</div>

@@ -1,0 +1,19 @@
+$grey: #eee;
+
+.container {
+    margin: 60px auto;
+    background: #fff;
+    padding: 0;
+    border-radius: 7px;
+}
+
+.user-list-tray {
+    background: $grey;
+    padding: 10px 15px;
+    border-radius: 7px;
+}
+
+h6 {
+    padding: 12px;
+    border-bottom: 1px solid grey;
+}

@@ -1,0 +1,11 @@
+.feed{
+    display: flex;
+    flex-direction: column;
+    overflow-y: scroll;
+    max-height: 700px;
+}
+
+.message{
+    flex-direction: column;
+    margin: 10px 0;
+}
