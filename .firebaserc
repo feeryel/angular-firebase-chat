@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "chat-app-8e53f": {
+      "hosting": {
+        "angular-firebase-chat": [
+          "chat-app-8e53f"
+        ]
+      }
+    }
+  }
+}
